@@ -1,0 +1,22 @@
+{
+  "name": "osu_farm_finder",
+  "version": "1.0.0",
+  "description": "Farm map finder for osu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhit-urbonal/CSSE332-osu-farm-finder.git"
+  },
+  "author": "Lukas Urbonas, Emma Letscher, Larissa Krakora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhit-urbonal/CSSE332-osu-farm-finder/issues"
+  },
+  "homepage": "https://github.com/rhit-urbonal/CSSE332-osu-farm-finder#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
