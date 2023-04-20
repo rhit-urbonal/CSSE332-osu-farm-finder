@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+.view {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+    height: 90vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.osubtn {
+    background-color: #c24a83;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 15pt;
+}
+
+.osubtn:hover{
+    background-color: #b13972;
+    color: white;
+}
+
+.osubtn:focus {
+    background-color: #b13972;
+    color: white;
+}
+
+.osubtn:active {
+    background-color: #a02861;
+    color: white;
+}
