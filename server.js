@@ -1,18 +1,18 @@
-var express = require('express')
-var app = express()
-var path = require('path')
-var http = require('http')
-
-var relpath = path.relative('/','public/index.html')
+const express = require('express')
+const app = express()
+const mysql = require('mysql')
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/mdb-ui-kit/mdb.min.css', (req, res) => {
-    res.sendFile(__dirname + '/node_modules/mdb-ui-kit/css/mdb.min.css')
-})
-
 app.get('/', (req, res) => {
     res.sendFile('index.html')
+})
+
+var con = mysql.createConnection({
+    host: "localhost:3000",
+    user: "",
+    password: "",
+    database: "titan.csse.rose-hulman.edu"
 })
 
 app.listen('3000')
